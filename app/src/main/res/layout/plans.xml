@@ -1,0 +1,1036 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+
+
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/plans_c1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="64dp"
+                android:layout_marginBottom="64dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    app:cardBackgroundColor="@color/black">
+
+
+                    <androidx.constraintlayout.widget.ConstraintLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:paddingLeft="8dp"
+                        android:paddingTop="8dp"
+                        android:paddingRight="16dp"
+                        android:paddingBottom="8dp">
+
+
+                        <TextView
+                            android:id="@+id/textView76"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="32dp"
+                            android:gravity="center"
+                            android:text="1 Month"
+                            android:textColor="@color/white"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent" />
+
+                        <TextView
+                            android:id="@+id/textView77"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="32dp"
+                            android:text="Rs 99"
+                            android:textColor="@color/dark_blue"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toBottomOf="@+id/textView76" />
+
+                        <TextView
+                            android:id="@+id/textView78"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="32dp"
+                            android:text="50% off"
+                            android:textColor="@color/green1"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toBottomOf="@+id/textView77" />
+
+                        <ImageView
+                            android:id="@+id/imageView30"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="8dp"
+                            android:layout_marginTop="32dp"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toBottomOf="@+id/textView78"
+                            app:srcCompat="@drawable/ic_baseline_arrow_forward_ios_24" />
+
+                        <ImageView
+                            android:id="@+id/imageView31"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="8dp"
+                            app:layout_constraintStart_toStartOf="@+id/imageView30"
+                            app:layout_constraintTop_toBottomOf="@+id/imageView30"
+                            app:srcCompat="@drawable/ic_baseline_arrow_forward_ios_24" />
+
+                        <ImageView
+                            android:id="@+id/imageView32"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="8dp"
+                            app:layout_constraintStart_toStartOf="@+id/imageView31"
+                            app:layout_constraintTop_toBottomOf="@+id/imageView31"
+                            app:srcCompat="@drawable/ic_baseline_arrow_forward_ios_24" />
+
+                        <ImageView
+                            android:id="@+id/imageView33"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="8dp"
+                            app:layout_constraintStart_toStartOf="@+id/imageView32"
+                            app:layout_constraintTop_toBottomOf="@+id/imageView32"
+                            app:srcCompat="@drawable/ic_baseline_arrow_forward_ios_24" />
+
+                        <ImageView
+                            android:id="@+id/imageView34"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="8dp"
+                            app:layout_constraintStart_toStartOf="@+id/imageView33"
+                            app:layout_constraintTop_toBottomOf="@+id/imageView33"
+                            app:srcCompat="@drawable/ic_baseline_arrow_forward_ios_24" />
+
+                        <ImageView
+                            android:id="@+id/imageView35"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="8dp"
+                            app:layout_constraintStart_toStartOf="@+id/imageView34"
+                            app:layout_constraintTop_toBottomOf="@+id/imageView34"
+                            app:srcCompat="@drawable/ic_baseline_arrow_forward_ios_24" />
+
+                        <ImageView
+                            android:id="@+id/imageView36"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="8dp"
+                            app:layout_constraintStart_toStartOf="@+id/imageView35"
+                            app:layout_constraintTop_toBottomOf="@+id/imageView35"
+                            app:srcCompat="@drawable/ic_baseline_arrow_forward_ios_24" />
+
+                        <ImageView
+                            android:id="@+id/imageView37"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="8dp"
+                            app:layout_constraintStart_toStartOf="@+id/imageView36"
+                            app:layout_constraintTop_toBottomOf="@+id/imageView36"
+                            app:srcCompat="@drawable/ic_baseline_arrow_forward_ios_24" />
+
+                        <TextView
+                            android:id="@+id/textView79"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="16dp"
+                            android:layout_marginBottom="5dp"
+                            android:text="300+ EOD Scans"
+                            android:textColor="@color/white"
+                            app:layout_constraintBottom_toBottomOf="@+id/imageView30"
+                            app:layout_constraintStart_toEndOf="@+id/imageView30"
+                            app:layout_constraintTop_toTopOf="@+id/imageView30" />
+
+                        <TextView
+                            android:id="@+id/textView80"
+                            android:layout_width="wrap_content"
+                            android:layout_height="19dp"
+                            android:text="15+ Customer Analysis types"
+                            android:textColor="@color/white"
+                            app:layout_constraintBottom_toBottomOf="@+id/imageView31"
+                            app:layout_constraintStart_toStartOf="@+id/textView79"
+                            app:layout_constraintTop_toTopOf="@+id/imageView31" />
+
+                        <TextView
+                            android:id="@+id/textView81"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="EOD Email alerts"
+                            android:textColor="@color/white"
+                            app:layout_constraintBottom_toBottomOf="@+id/imageView32"
+                            app:layout_constraintStart_toStartOf="@+id/textView80"
+                            app:layout_constraintTop_toTopOf="@+id/imageView32" />
+
+                        <TextView
+                            android:id="@+id/textView82"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Multiple Watchlists"
+                            android:textColor="@color/white"
+                            app:layout_constraintBottom_toBottomOf="@+id/imageView33"
+                            app:layout_constraintStart_toStartOf="@+id/textView81"
+                            app:layout_constraintTop_toTopOf="@+id/imageView33" />
+
+                        <TextView
+                            android:id="@+id/textView83"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Multiple Portfolios"
+                            android:textColor="@color/white"
+                            app:layout_constraintBottom_toBottomOf="@+id/imageView34"
+                            app:layout_constraintStart_toStartOf="@+id/textView82"
+                            app:layout_constraintTop_toTopOf="@+id/imageView34" />
+
+                        <TextView
+                            android:id="@+id/textView84"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Stock notes"
+                            android:textColor="@color/white"
+                            app:layout_constraintBottom_toBottomOf="@+id/imageView35"
+                            app:layout_constraintStart_toStartOf="@+id/textView83"
+                            app:layout_constraintTop_toTopOf="@+id/imageView35" />
+
+                        <TextView
+                            android:id="@+id/textView85"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Smart money tracker"
+                            android:textColor="@color/white"
+                            app:layout_constraintBottom_toBottomOf="@+id/imageView36"
+                            app:layout_constraintStart_toStartOf="@+id/textView84"
+                            app:layout_constraintTop_toTopOf="@+id/imageView36" />
+
+                        <TextView
+                            android:id="@+id/textView86"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Paper trading"
+                            android:textColor="@color/white"
+                            app:layout_constraintBottom_toBottomOf="@+id/imageView37"
+                            app:layout_constraintStart_toStartOf="@+id/textView85"
+                            app:layout_constraintTop_toTopOf="@+id/imageView37" />
+
+                        <androidx.constraintlayout.widget.Barrier
+                            android:id="@+id/b1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="8dp"
+                            android:layout_marginEnd="16dp"
+                            android:layout_marginBottom="8dp"
+                            android:layoutDirection="inherit"
+                            app:barrierDirection="end"
+                            app:constraint_referenced_ids="textView80,textView79,textView81,textView82,textView83,textView84,textView85,textView86"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintTop_toTopOf="parent" />
+
+                        <Button
+                            android:id="@+id/button3"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="32dp"
+                            android:background="@color/dark_blue"
+                            android:text="Purchase Plan"
+                            android:textColor="@color/white"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toBottomOf="@+id/imageView37" />
+                    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+                </androidx.cardview.widget.CardView>
+
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/plans_c2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="64dp"
+                android:layout_marginBottom="64dp"
+        app:layout_constraintBottom_toBottomOf="@+id/plans_c1"
+        app:layout_constraintStart_toEndOf="@+id/plans_c1"
+        app:layout_constraintTop_toTopOf="@+id/plans_c1">
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    app:cardBackgroundColor="@color/black">
+
+
+                    <androidx.constraintlayout.widget.ConstraintLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:paddingLeft="8dp"
+                        android:paddingTop="8dp"
+                        android:paddingRight="16dp"
+                        android:paddingBottom="8dp">
+
+
+                        <TextView
+                            android:id="@+id/textView76"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="32dp"
+                            android:gravity="center"
+                            android:text="3 Months"
+                            android:textColor="@color/white"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent" />
+
+                        <TextView
+                            android:id="@+id/textView77"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="32dp"
+                            android:text="Rs 269"
+                            android:textColor="@color/dark_blue"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toBottomOf="@+id/textView76" />
+
+                        <TextView
+                            android:id="@+id/textView78"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="32dp"
+                            android:text="55% off"
+                            android:textColor="@color/green1"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toBottomOf="@+id/textView77" />
+
+                        <ImageView
+                            android:id="@+id/imageView30"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="8dp"
+                            android:layout_marginTop="32dp"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toBottomOf="@+id/textView78"
+                            app:srcCompat="@drawable/ic_baseline_arrow_forward_ios_24" />
+
+                        <ImageView
+                            android:id="@+id/imageView31"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="8dp"
+                            app:layout_constraintStart_toStartOf="@+id/imageView30"
+                            app:layout_constraintTop_toBottomOf="@+id/imageView30"
+                            app:srcCompat="@drawable/ic_baseline_arrow_forward_ios_24" />
+
+                        <ImageView
+                            android:id="@+id/imageView32"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="8dp"
+                            app:layout_constraintStart_toStartOf="@+id/imageView31"
+                            app:layout_constraintTop_toBottomOf="@+id/imageView31"
+                            app:srcCompat="@drawable/ic_baseline_arrow_forward_ios_24" />
+
+                        <ImageView
+                            android:id="@+id/imageView33"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="8dp"
+                            app:layout_constraintStart_toStartOf="@+id/imageView32"
+                            app:layout_constraintTop_toBottomOf="@+id/imageView32"
+                            app:srcCompat="@drawable/ic_baseline_arrow_forward_ios_24" />
+
+                        <ImageView
+                            android:id="@+id/imageView34"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="8dp"
+                            app:layout_constraintStart_toStartOf="@+id/imageView33"
+                            app:layout_constraintTop_toBottomOf="@+id/imageView33"
+                            app:srcCompat="@drawable/ic_baseline_arrow_forward_ios_24" />
+
+                        <ImageView
+                            android:id="@+id/imageView35"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="8dp"
+                            app:layout_constraintStart_toStartOf="@+id/imageView34"
+                            app:layout_constraintTop_toBottomOf="@+id/imageView34"
+                            app:srcCompat="@drawable/ic_baseline_arrow_forward_ios_24" />
+
+                        <ImageView
+                            android:id="@+id/imageView36"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="8dp"
+                            app:layout_constraintStart_toStartOf="@+id/imageView35"
+                            app:layout_constraintTop_toBottomOf="@+id/imageView35"
+                            app:srcCompat="@drawable/ic_baseline_arrow_forward_ios_24" />
+
+                        <ImageView
+                            android:id="@+id/imageView37"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="8dp"
+                            app:layout_constraintStart_toStartOf="@+id/imageView36"
+                            app:layout_constraintTop_toBottomOf="@+id/imageView36"
+                            app:srcCompat="@drawable/ic_baseline_arrow_forward_ios_24" />
+
+                        <TextView
+                            android:id="@+id/textView79"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="16dp"
+                            android:layout_marginBottom="5dp"
+                            android:text="300+ EOD Scans"
+                            android:textColor="@color/white"
+                            app:layout_constraintBottom_toBottomOf="@+id/imageView30"
+                            app:layout_constraintStart_toEndOf="@+id/imageView30"
+                            app:layout_constraintTop_toTopOf="@+id/imageView30" />
+
+                        <TextView
+                            android:id="@+id/textView80"
+                            android:layout_width="wrap_content"
+                            android:layout_height="19dp"
+                            android:text="15+ Customer Analysis types"
+                            android:textColor="@color/white"
+                            app:layout_constraintBottom_toBottomOf="@+id/imageView31"
+                            app:layout_constraintStart_toStartOf="@+id/textView79"
+                            app:layout_constraintTop_toTopOf="@+id/imageView31" />
+
+                        <TextView
+                            android:id="@+id/textView81"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="EOD Email alerts"
+                            android:textColor="@color/white"
+                            app:layout_constraintBottom_toBottomOf="@+id/imageView32"
+                            app:layout_constraintStart_toStartOf="@+id/textView80"
+                            app:layout_constraintTop_toTopOf="@+id/imageView32" />
+
+                        <TextView
+                            android:id="@+id/textView82"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Multiple Watchlists"
+                            android:textColor="@color/white"
+                            app:layout_constraintBottom_toBottomOf="@+id/imageView33"
+                            app:layout_constraintStart_toStartOf="@+id/textView81"
+                            app:layout_constraintTop_toTopOf="@+id/imageView33" />
+
+                        <TextView
+                            android:id="@+id/textView83"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Multiple Portfolios"
+                            android:textColor="@color/white"
+                            app:layout_constraintBottom_toBottomOf="@+id/imageView34"
+                            app:layout_constraintStart_toStartOf="@+id/textView82"
+                            app:layout_constraintTop_toTopOf="@+id/imageView34" />
+
+                        <TextView
+                            android:id="@+id/textView84"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Stock notes"
+                            android:textColor="@color/white"
+                            app:layout_constraintBottom_toBottomOf="@+id/imageView35"
+                            app:layout_constraintStart_toStartOf="@+id/textView83"
+                            app:layout_constraintTop_toTopOf="@+id/imageView35" />
+
+                        <TextView
+                            android:id="@+id/textView85"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Smart money tracker"
+                            android:textColor="@color/white"
+                            app:layout_constraintBottom_toBottomOf="@+id/imageView36"
+                            app:layout_constraintStart_toStartOf="@+id/textView84"
+                            app:layout_constraintTop_toTopOf="@+id/imageView36" />
+
+                        <TextView
+                            android:id="@+id/textView86"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Paper trading"
+                            android:textColor="@color/white"
+                            app:layout_constraintBottom_toBottomOf="@+id/imageView37"
+                            app:layout_constraintStart_toStartOf="@+id/textView85"
+                            app:layout_constraintTop_toTopOf="@+id/imageView37" />
+
+                        <androidx.constraintlayout.widget.Barrier
+                            android:id="@+id/b1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="8dp"
+                            android:layout_marginEnd="16dp"
+                            android:layout_marginBottom="8dp"
+                            android:layoutDirection="inherit"
+                            app:barrierDirection="end"
+                            app:constraint_referenced_ids="textView80,textView79,textView81,textView82,textView83,textView84,textView85,textView86"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintTop_toTopOf="parent" />
+
+                        <Button
+                            android:id="@+id/button3"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="32dp"
+                            android:background="@color/dark_blue"
+                            android:text="Purchase Plan"
+                            android:textColor="@color/white"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toBottomOf="@+id/imageView37" />
+                    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+                </androidx.cardview.widget.CardView>
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/plans_c3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="64dp"
+                android:layout_marginBottom="64dp"
+        app:layout_constraintBottom_toBottomOf="@+id/plans_c2"
+        app:layout_constraintStart_toEndOf="@+id/plans_c2"
+        app:layout_constraintTop_toTopOf="@+id/plans_c2">
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    app:cardBackgroundColor="@color/black">
+
+
+                    <androidx.constraintlayout.widget.ConstraintLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:paddingLeft="8dp"
+                        android:paddingTop="8dp"
+                        android:paddingRight="16dp"
+                        android:paddingBottom="8dp">
+
+
+                        <TextView
+                            android:id="@+id/textView76"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="32dp"
+                            android:gravity="center"
+                            android:text="6 Months"
+                            android:textColor="@color/white"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent" />
+
+                        <TextView
+                            android:id="@+id/textView77"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="32dp"
+                            android:text="Rs 499"
+                            android:textColor="@color/dark_blue"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toBottomOf="@+id/textView76" />
+
+                        <TextView
+                            android:id="@+id/textView78"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="32dp"
+                            android:text="58% off"
+                            android:textColor="@color/green1"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toBottomOf="@+id/textView77" />
+
+                        <ImageView
+                            android:id="@+id/imageView30"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="8dp"
+                            android:layout_marginTop="32dp"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toBottomOf="@+id/textView78"
+                            app:srcCompat="@drawable/ic_baseline_arrow_forward_ios_24" />
+
+                        <ImageView
+                            android:id="@+id/imageView31"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="8dp"
+                            app:layout_constraintStart_toStartOf="@+id/imageView30"
+                            app:layout_constraintTop_toBottomOf="@+id/imageView30"
+                            app:srcCompat="@drawable/ic_baseline_arrow_forward_ios_24" />
+
+                        <ImageView
+                            android:id="@+id/imageView32"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="8dp"
+                            app:layout_constraintStart_toStartOf="@+id/imageView31"
+                            app:layout_constraintTop_toBottomOf="@+id/imageView31"
+                            app:srcCompat="@drawable/ic_baseline_arrow_forward_ios_24" />
+
+                        <ImageView
+                            android:id="@+id/imageView33"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="8dp"
+                            app:layout_constraintStart_toStartOf="@+id/imageView32"
+                            app:layout_constraintTop_toBottomOf="@+id/imageView32"
+                            app:srcCompat="@drawable/ic_baseline_arrow_forward_ios_24" />
+
+                        <ImageView
+                            android:id="@+id/imageView34"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="8dp"
+                            app:layout_constraintStart_toStartOf="@+id/imageView33"
+                            app:layout_constraintTop_toBottomOf="@+id/imageView33"
+                            app:srcCompat="@drawable/ic_baseline_arrow_forward_ios_24" />
+
+                        <ImageView
+                            android:id="@+id/imageView35"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="8dp"
+                            app:layout_constraintStart_toStartOf="@+id/imageView34"
+                            app:layout_constraintTop_toBottomOf="@+id/imageView34"
+                            app:srcCompat="@drawable/ic_baseline_arrow_forward_ios_24" />
+
+                        <ImageView
+                            android:id="@+id/imageView36"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="8dp"
+                            app:layout_constraintStart_toStartOf="@+id/imageView35"
+                            app:layout_constraintTop_toBottomOf="@+id/imageView35"
+                            app:srcCompat="@drawable/ic_baseline_arrow_forward_ios_24" />
+
+                        <ImageView
+                            android:id="@+id/imageView37"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="8dp"
+                            app:layout_constraintStart_toStartOf="@+id/imageView36"
+                            app:layout_constraintTop_toBottomOf="@+id/imageView36"
+                            app:srcCompat="@drawable/ic_baseline_arrow_forward_ios_24" />
+
+                        <TextView
+                            android:id="@+id/textView79"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="16dp"
+                            android:layout_marginBottom="5dp"
+                            android:text="300+ EOD Scans"
+                            android:textColor="@color/white"
+                            app:layout_constraintBottom_toBottomOf="@+id/imageView30"
+                            app:layout_constraintStart_toEndOf="@+id/imageView30"
+                            app:layout_constraintTop_toTopOf="@+id/imageView30" />
+
+                        <TextView
+                            android:id="@+id/textView80"
+                            android:layout_width="wrap_content"
+                            android:layout_height="19dp"
+                            android:text="15+ Customer Analysis types"
+                            android:textColor="@color/white"
+                            app:layout_constraintBottom_toBottomOf="@+id/imageView31"
+                            app:layout_constraintStart_toStartOf="@+id/textView79"
+                            app:layout_constraintTop_toTopOf="@+id/imageView31" />
+
+                        <TextView
+                            android:id="@+id/textView81"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="EOD Email alerts"
+                            android:textColor="@color/white"
+                            app:layout_constraintBottom_toBottomOf="@+id/imageView32"
+                            app:layout_constraintStart_toStartOf="@+id/textView80"
+                            app:layout_constraintTop_toTopOf="@+id/imageView32" />
+
+                        <TextView
+                            android:id="@+id/textView82"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Multiple Watchlists"
+                            android:textColor="@color/white"
+                            app:layout_constraintBottom_toBottomOf="@+id/imageView33"
+                            app:layout_constraintStart_toStartOf="@+id/textView81"
+                            app:layout_constraintTop_toTopOf="@+id/imageView33" />
+
+                        <TextView
+                            android:id="@+id/textView83"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Multiple Portfolios"
+                            android:textColor="@color/white"
+                            app:layout_constraintBottom_toBottomOf="@+id/imageView34"
+                            app:layout_constraintStart_toStartOf="@+id/textView82"
+                            app:layout_constraintTop_toTopOf="@+id/imageView34" />
+
+                        <TextView
+                            android:id="@+id/textView84"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Stock notes"
+                            android:textColor="@color/white"
+                            app:layout_constraintBottom_toBottomOf="@+id/imageView35"
+                            app:layout_constraintStart_toStartOf="@+id/textView83"
+                            app:layout_constraintTop_toTopOf="@+id/imageView35" />
+
+                        <TextView
+                            android:id="@+id/textView85"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Smart money tracker"
+                            android:textColor="@color/white"
+                            app:layout_constraintBottom_toBottomOf="@+id/imageView36"
+                            app:layout_constraintStart_toStartOf="@+id/textView84"
+                            app:layout_constraintTop_toTopOf="@+id/imageView36" />
+
+                        <TextView
+                            android:id="@+id/textView86"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Paper trading"
+                            android:textColor="@color/white"
+                            app:layout_constraintBottom_toBottomOf="@+id/imageView37"
+                            app:layout_constraintStart_toStartOf="@+id/textView85"
+                            app:layout_constraintTop_toTopOf="@+id/imageView37" />
+
+                        <androidx.constraintlayout.widget.Barrier
+                            android:id="@+id/b1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="8dp"
+                            android:layout_marginEnd="16dp"
+                            android:layout_marginBottom="8dp"
+                            android:layoutDirection="inherit"
+                            app:barrierDirection="end"
+                            app:constraint_referenced_ids="textView80,textView79,textView81,textView82,textView83,textView84,textView85,textView86"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintTop_toTopOf="parent" />
+
+                        <Button
+                            android:id="@+id/button3"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="32dp"
+                            android:background="@color/dark_blue"
+                            android:text="Purchase Plan"
+                            android:textColor="@color/white"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toBottomOf="@+id/imageView37" />
+                    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+                </androidx.cardview.widget.CardView>
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/plans_c4"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="64dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginBottom="64dp"
+                app:layout_constraintBottom_toBottomOf="@+id/plans_c3"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/plans_c3"
+                app:layout_constraintTop_toTopOf="@+id/plans_c3">
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    app:cardBackgroundColor="@color/black">
+
+
+                    <androidx.constraintlayout.widget.ConstraintLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:paddingLeft="8dp"
+                        android:paddingTop="8dp"
+                        android:paddingRight="16dp"
+                        android:paddingBottom="8dp">
+
+
+                        <TextView
+                            android:id="@+id/textView76"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="32dp"
+                            android:gravity="center"
+                            android:text="12 Months"
+                            android:textColor="@color/white"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent" />
+
+                        <TextView
+                            android:id="@+id/textView77"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="32dp"
+                            android:text="Rs 899"
+                            android:textColor="@color/dark_blue"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toBottomOf="@+id/textView76" />
+
+                        <TextView
+                            android:id="@+id/textView78"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="32dp"
+                            android:text="60% off"
+                            android:textColor="@color/green1"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toBottomOf="@+id/textView77" />
+
+                        <ImageView
+                            android:id="@+id/imageView30"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="8dp"
+                            android:layout_marginTop="32dp"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toBottomOf="@+id/textView78"
+                            app:srcCompat="@drawable/ic_baseline_arrow_forward_ios_24" />
+
+                        <ImageView
+                            android:id="@+id/imageView31"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="8dp"
+                            app:layout_constraintStart_toStartOf="@+id/imageView30"
+                            app:layout_constraintTop_toBottomOf="@+id/imageView30"
+                            app:srcCompat="@drawable/ic_baseline_arrow_forward_ios_24" />
+
+                        <ImageView
+                            android:id="@+id/imageView32"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="8dp"
+                            app:layout_constraintStart_toStartOf="@+id/imageView31"
+                            app:layout_constraintTop_toBottomOf="@+id/imageView31"
+                            app:srcCompat="@drawable/ic_baseline_arrow_forward_ios_24" />
+
+                        <ImageView
+                            android:id="@+id/imageView33"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="8dp"
+                            app:layout_constraintStart_toStartOf="@+id/imageView32"
+                            app:layout_constraintTop_toBottomOf="@+id/imageView32"
+                            app:srcCompat="@drawable/ic_baseline_arrow_forward_ios_24" />
+
+                        <ImageView
+                            android:id="@+id/imageView34"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="8dp"
+                            app:layout_constraintStart_toStartOf="@+id/imageView33"
+                            app:layout_constraintTop_toBottomOf="@+id/imageView33"
+                            app:srcCompat="@drawable/ic_baseline_arrow_forward_ios_24" />
+
+                        <ImageView
+                            android:id="@+id/imageView35"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="8dp"
+                            app:layout_constraintStart_toStartOf="@+id/imageView34"
+                            app:layout_constraintTop_toBottomOf="@+id/imageView34"
+                            app:srcCompat="@drawable/ic_baseline_arrow_forward_ios_24" />
+
+                        <ImageView
+                            android:id="@+id/imageView36"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="8dp"
+                            app:layout_constraintStart_toStartOf="@+id/imageView35"
+                            app:layout_constraintTop_toBottomOf="@+id/imageView35"
+                            app:srcCompat="@drawable/ic_baseline_arrow_forward_ios_24" />
+
+                        <ImageView
+                            android:id="@+id/imageView37"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="8dp"
+                            app:layout_constraintStart_toStartOf="@+id/imageView36"
+                            app:layout_constraintTop_toBottomOf="@+id/imageView36"
+                            app:srcCompat="@drawable/ic_baseline_arrow_forward_ios_24" />
+
+                        <TextView
+                            android:id="@+id/textView79"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="16dp"
+                            android:layout_marginBottom="5dp"
+                            android:text="300+ EOD Scans"
+                            android:textColor="@color/white"
+                            app:layout_constraintBottom_toBottomOf="@+id/imageView30"
+                            app:layout_constraintStart_toEndOf="@+id/imageView30"
+                            app:layout_constraintTop_toTopOf="@+id/imageView30" />
+
+                        <TextView
+                            android:id="@+id/textView80"
+                            android:layout_width="wrap_content"
+                            android:layout_height="19dp"
+                            android:text="15+ Customer Analysis types"
+                            android:textColor="@color/white"
+                            app:layout_constraintBottom_toBottomOf="@+id/imageView31"
+                            app:layout_constraintStart_toStartOf="@+id/textView79"
+                            app:layout_constraintTop_toTopOf="@+id/imageView31" />
+
+                        <TextView
+                            android:id="@+id/textView81"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="EOD Email alerts"
+                            android:textColor="@color/white"
+                            app:layout_constraintBottom_toBottomOf="@+id/imageView32"
+                            app:layout_constraintStart_toStartOf="@+id/textView80"
+                            app:layout_constraintTop_toTopOf="@+id/imageView32" />
+
+                        <TextView
+                            android:id="@+id/textView82"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Multiple Watchlists"
+                            android:textColor="@color/white"
+                            app:layout_constraintBottom_toBottomOf="@+id/imageView33"
+                            app:layout_constraintStart_toStartOf="@+id/textView81"
+                            app:layout_constraintTop_toTopOf="@+id/imageView33" />
+
+                        <TextView
+                            android:id="@+id/textView83"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Multiple Portfolios"
+                            android:textColor="@color/white"
+                            app:layout_constraintBottom_toBottomOf="@+id/imageView34"
+                            app:layout_constraintStart_toStartOf="@+id/textView82"
+                            app:layout_constraintTop_toTopOf="@+id/imageView34" />
+
+                        <TextView
+                            android:id="@+id/textView84"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Stock notes"
+                            android:textColor="@color/white"
+                            app:layout_constraintBottom_toBottomOf="@+id/imageView35"
+                            app:layout_constraintStart_toStartOf="@+id/textView83"
+                            app:layout_constraintTop_toTopOf="@+id/imageView35" />
+
+                        <TextView
+                            android:id="@+id/textView85"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Smart money tracker"
+                            android:textColor="@color/white"
+                            app:layout_constraintBottom_toBottomOf="@+id/imageView36"
+                            app:layout_constraintStart_toStartOf="@+id/textView84"
+                            app:layout_constraintTop_toTopOf="@+id/imageView36" />
+
+                        <TextView
+                            android:id="@+id/textView86"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Paper trading"
+                            android:textColor="@color/white"
+                            app:layout_constraintBottom_toBottomOf="@+id/imageView37"
+                            app:layout_constraintStart_toStartOf="@+id/textView85"
+                            app:layout_constraintTop_toTopOf="@+id/imageView37" />
+
+                        <androidx.constraintlayout.widget.Barrier
+                            android:id="@+id/b1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="8dp"
+                            android:layout_marginEnd="16dp"
+                            android:layout_marginBottom="8dp"
+                            android:layoutDirection="inherit"
+                            app:barrierDirection="end"
+                            app:constraint_referenced_ids="textView80,textView79,textView81,textView82,textView83,textView84,textView85,textView86"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintTop_toTopOf="parent" />
+
+                        <Button
+                            android:id="@+id/button3"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="32dp"
+                            android:background="@color/dark_blue"
+                            android:text="Purchase Plan"
+                            android:textColor="@color/white"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toBottomOf="@+id/imageView37" />
+                    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+                </androidx.cardview.widget.CardView>
+
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <Button
+                android:id="@+id/button4"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/green"
+                android:text="Most Popular"
+                android:textColor="@color/white"
+                app:layout_constraintBottom_toTopOf="@+id/plans_c4"
+                app:layout_constraintEnd_toEndOf="@+id/plans_c4"
+                app:layout_constraintStart_toStartOf="@+id/plans_c4" />
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </HorizontalScrollView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

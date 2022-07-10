@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0">
+
+
+        <TextView
+            android:id="@+id/textView106"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="8dp"
+            android:text="Reliance"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <EditText
+            android:id="@+id/editTextTextPersonName2"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="8dp"
+            android:ems="10"
+            android:hint="Search Stock"
+            android:inputType="textPersonName"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView106" />
+
+        <HorizontalScrollView
+            android:id="@+id/horizontalScrollView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/editTextTextPersonName2"
+            app:layout_constraintVertical_bias="0.0">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/cl1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/textView115"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="16dp"
+                    android:text="Overview"
+                    android:textAlignment="center"
+                    android:textStyle="bold"
+                    app:layout_constraintEnd_toStartOf="@+id/textView116"
+                    app:layout_constraintHorizontal_bias="0.0"
+                    app:layout_constraintHorizontal_chainStyle="packed"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:id="@+id/textView116"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="8dp"
+                    android:text="Patterns"
+                    android:textAlignment="center"
+                    android:textStyle="bold"
+                    app:layout_constraintBottom_toBottomOf="@+id/textView115"
+                    app:layout_constraintEnd_toStartOf="@+id/textView117"
+                    app:layout_constraintHorizontal_bias="0.5"
+                    app:layout_constraintStart_toEndOf="@+id/textView115" />
+
+                <TextView
+                    android:id="@+id/textView117"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="8dp"
+                    android:text="Techincals"
+                    android:textAlignment="center"
+                    android:textStyle="bold"
+                    app:layout_constraintBottom_toBottomOf="@+id/textView116"
+                    app:layout_constraintEnd_toStartOf="@+id/textView118"
+                    app:layout_constraintHorizontal_bias="0.5"
+                    app:layout_constraintStart_toEndOf="@+id/textView116" />
+
+                <TextView
+                    android:id="@+id/textView118"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="8dp"
+                    android:text="Supports &amp; Resistance"
+                    android:textAlignment="center"
+                    android:textStyle="bold"
+                    app:layout_constraintBottom_toBottomOf="@+id/textView117"
+                    app:layout_constraintEnd_toStartOf="@+id/textView119"
+                    app:layout_constraintHorizontal_bias="0.5"
+                    app:layout_constraintStart_toEndOf="@+id/textView117" />
+
+                <TextView
+                    android:id="@+id/textView119"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="8dp"
+                    android:text="Volume"
+                    android:textAlignment="center"
+                    android:textStyle="bold"
+                    app:layout_constraintBottom_toBottomOf="@+id/textView118"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.5"
+                    app:layout_constraintStart_toEndOf="@+id/textView118" />
+
+                <TextView
+                    android:id="@+id/Fundamentals"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="8dp"
+                    android:text="Fundamentals"
+                    android:textAlignment="center"
+                    app:layout_constraintHorizontal_bias="0.5"
+                    android:textStyle="bold"
+                    app:layout_constraintBottom_toBottomOf="@+id/textView119"
+                    app:layout_constraintStart_toEndOf="@+id/textView119"
+                    app:layout_constraintTop_toTopOf="@+id/textView119" />
+
+                <TextView
+                    android:id="@+id/Options"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="8dp"
+                    android:textAlignment="center"
+                    app:layout_constraintHorizontal_bias="0.5"
+                    android:text="Options"
+                    android:textStyle="bold"
+                    app:layout_constraintBottom_toBottomOf="@+id/Fundamentals"
+                    app:layout_constraintStart_toEndOf="@+id/Fundamentals" />
+
+                <TextView
+                    android:id="@+id/Futures"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="8dp"
+                    android:textAlignment="center"
+                    app:layout_constraintHorizontal_bias="0.5"
+                    android:text="Futures"
+                    android:textStyle="bold"
+                    app:layout_constraintBottom_toBottomOf="@+id/Options"
+                    app:layout_constraintStart_toEndOf="@+id/Options" />
+
+                <TextView
+                    android:id="@+id/Performance"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="8dp"
+                    android:textAlignment="center"
+                    app:layout_constraintHorizontal_bias="0.5"
+                    android:text="Performance"
+                    android:textStyle="bold"
+                    app:layout_constraintBottom_toBottomOf="@+id/Futures"
+                    app:layout_constraintStart_toEndOf="@+id/Futures" />
+
+                <TextView
+                    android:id="@+id/Deals"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="8dp"
+                    android:textAlignment="center"
+                    app:layout_constraintHorizontal_bias="0.5"
+                    android:text="Deals"
+                    android:textStyle="bold"
+                    app:layout_constraintBottom_toBottomOf="@+id/Performance"
+                    app:layout_constraintStart_toEndOf="@+id/Performance" />
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+        </HorizontalScrollView>
+
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/reliance_constraint_Fragment"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/horizontalScrollView" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
